@@ -18,6 +18,7 @@ Aplicação para aluguel de carro, com criação de usuários, criação de cate
 ```sh
 $ git clone https://github.com/ElvisFelix-dev/Backend-carRentAPI.git
 $ cd carRentAPI
+$ yarn
 $ yarn dev
 ```
 
