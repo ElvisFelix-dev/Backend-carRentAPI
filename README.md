@@ -9,9 +9,10 @@ Aplicação para aluguel de carro, com criação de usuários, criação de cate
 
 🛠 Ferramentas usadas na aplicação.
 
+### ° [Typescript](https://github.com/microsoft/TypeScript)
 ### ° [NodeJS](https://github.com/nodejs)
 ### ° [ExpressJS](https://github.com/expressjs)
-### ° [Typescript](https://github.com/microsoft/TypeScript)
+### ° [Multer](https://github.com/expressjs/multer)
 
 ## :zap: Executando o Projeto
 #### Clonando o projeto
