@@ -5,6 +5,7 @@
     "openapi",
     "respawn",
     "tsbuildinfo",
+    "tsyringe",
     "typeorm"
   ]
 }
