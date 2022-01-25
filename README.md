@@ -13,6 +13,9 @@ Aplicação para aluguel de carro, com criação de usuários, criação de cate
 ### ° [NodeJS](https://github.com/nodejs)
 ### ° [ExpressJS](https://github.com/expressjs)
 ### ° [Multer](https://github.com/expressjs/multer)
+### ° [TypeORM](https://github.com/typeorm)
+
+
 
 ## :zap: Executando o Projeto
 #### Clonando o projeto
