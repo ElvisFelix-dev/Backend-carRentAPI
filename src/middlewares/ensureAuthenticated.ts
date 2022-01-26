@@ -1,6 +1,8 @@
 import { NextFunction, Request, Response } from 'express'
 import { verify } from 'jsonwebtoken';
+
 import authConfig from '../config/auth';
+import { AppError } from '../errors/AppError';
 
 import { UsersRepository } from '../modules/accounts/repositories/implementations/UsersRepository';
 
@@ -18,7 +20,7 @@ export async function ensureAuthenticated(
   const authHeader = request.headers.authorization;
 
   if (!authHeader) {
-    throw new Error('JWT token is missing');
+    throw new AppError("JWT token is missing", 401);
   }
 
   const [, token] = authHeader.split(' ');
@@ -31,11 +33,15 @@ export async function ensureAuthenticated(
     const user = await usersRepository.findById(user_id)
 
     if (!user) {
-      throw new Error("User does not exists!")
+      throw new AppError("User does not exists!", 401)
+    }
+
+    request.user = {
+      id: user_id
     }
 
     next();
   }catch {
-    throw new Error("Invalid token!")
+    throw new AppError("Invalid token!", 401)
   }
 }

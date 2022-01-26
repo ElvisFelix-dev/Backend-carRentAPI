@@ -1,2 +1,7 @@
 node_modules
 yarn.lock
+.vscode
+temp/avatar/
+
+tmp/avatar/*
+!tmp/avatar/.gitkeep

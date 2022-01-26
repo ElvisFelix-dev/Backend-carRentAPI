@@ -4,6 +4,7 @@
     "codepaths",
     "dtos",
     "openapi",
+    "originalname",
     "respawn",
     "tsbuildinfo",
     "tsyringe",
