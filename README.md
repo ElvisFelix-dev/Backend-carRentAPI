@@ -1,5 +1,5 @@
 <div align='center'>
-  APP carRent
+  <h1>APP carRent</h1>
 </div>
 <br>
 
