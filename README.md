@@ -1,6 +1,11 @@
+<div align='center'>
+  APP carRent
+</div>
+<br>
+
 ![](logo.png)
 
-# APP carRent
+# 
 
 ## 🚗 Aplicação para aluguel de carro
 
